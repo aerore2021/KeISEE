@@ -1,0 +1,53 @@
+module ID (
+    input clk, RegWrite_wb, MemRead_ex,
+    input [31:0] Instruction_id, PC_id, RegWriteData_wb,
+    input [4:0] rdAddr_wb, rdAddr_ex,
+    output MemtoReg_id, RegWrite_id, MemWrite_id, MemRead_id,
+           ALUSrcA_id, Stall, Branch, Jump, IFWrite,   
+    output [3:0] ALUCode_id,
+    output [1:0] ALUSrcB_id,
+    output [31:0] BranchAddr, Imm_id, rs1Data_id, rs2Data_id,
+    output [4:0] rdAddr_id, rs1Addr_id, rs2Addr_id
+); 
+wire JALR;
+wire [31:0] offset; 
+//Registers
+Registers Regs(
+    .clk(clk), .RegWrite(RegWrite_wb),
+    .rs1Addr(rs1Addr_id), .rs2Addr(rs2Addr_id), .WriteAddr(rdAddr_wb),
+    .WriteData(RegWriteData_wb),
+    .rs1Data(rs1Data_id), .rs2Data(rs2Data_id)
+);
+
+//Decode(ImmGen)
+Decode Decode1(
+    .Instruction(Instruction_id), .MemtoReg(MemtoReg_id), 
+    .RegWrite(RegWrite_id), .MemWrite(MemWrite_id),
+    .MemRead(MemRead_id), .ALUCode(ALUCode_id), .ALUSrcA(ALUSrcA_id), 
+    .ALUSrcB(ALUSrcB_id), .Jump(Jump), .JALR(JALR),
+    .Imm(Imm_id), .offset(offset)
+);
+
+wire [31:0] BaseAddr= (JALR==1'b0)?PC_id:rs1Data_id;
+adder_32bits adder_id(
+    .a(offset), .b(BaseAddr), .ci(0), 
+    .s(BranchAddr)
+); //JumpAddr
+
+//Branch Test
+BranchTest BT(
+    .Instruction(Instruction_id), 
+    .rs1Data(rs1Data_id), .rs2Data(rs2Data_id),
+    .Branch(Branch)
+);
+
+//Hazard Detector
+assign Stall= ((rdAddr_ex==rs1Addr_id) || (rdAddr_ex==rs2Addr_id)) && (MemRead_ex);
+assign IFWrite= ~Stall;
+
+assign rdAddr_id= Instruction_id[11:7];
+assign rs1Addr_id= Instruction_id[19:15];
+assign rs2Addr_id= Instruction_id[24:20];
+endmodule
+
+

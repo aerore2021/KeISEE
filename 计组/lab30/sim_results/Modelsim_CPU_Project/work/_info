@@ -1,0 +1,525 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modeltech64_10.4/examples
+T_opt
+!s110 1701745666
+VWVcCzh96f=1B;:5Si_0[o2
+Z1 04 13 4 work Risc5CPU_tb_v fast 0
+=1-e89c25908d87-656e9402-355-4f98
+o-quiet -auto_acc_if_foreign -work work -L D:/modeltech64_10.4/vivado_lib/simprims_ver -L D:/modeltech64_10.4/vivado_lib/unisims_ver -L D:/modeltech64_10.4/vivado_lib/dist_mem_gen_v8_0_14
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1701745765
+V@F2koMPdI?:k:7cZ`Y?TF3
+R1
+=1-e89c25908d87-656e9465-17f-801c
+o-quiet -auto_acc_if_foreign -work work -L D:/modeltech64_10.4/vivado_lib/simprims_ver -L D:/modeltech64_10.4/vivado_lib/unisims_ver -L D:/modeltech64_10.4/vivado_lib/dist_mem_gen_v8_0_14 +acc
+n@_opt1
+R2
+vadder_32bits
+Z3 !s110 1701745690
+!i10b 1
+!s100 O?]IbFH:J=iTLVHezEh]:3
+IBGR0[IgOVhXzIU7LbY5BO1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/11097/Desktop/risc5CPU/sim_results
+w1697943532
+8C:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v
+L0 2
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1701745690.848000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_4bits
+R3
+!i10b 1
+!s100 3`@0R]LO_R=URUhT90BTO0
+I3LS7SUad8Yl>8;fZOGjKK1
+R4
+R5
+w1697590662
+8C:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1701745690.794000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v|
+!i113 0
+R7
+vALU
+R3
+!i10b 1
+!s100 jfVfVZDm1NVIS2RDPkocA3
+IoA[QfFPN@A_@HifO5KRL]3
+R4
+R5
+w1701662806
+8C:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.897000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v|
+!i113 0
+R7
+n@a@l@u
+vBranchTest
+R3
+!i10b 1
+!s100 SVAHZ>iKi1]lXS8=JfhB13
+IK]HWLD@:?1jhK_WD4@e1;3
+R4
+R5
+w1701675096
+8C:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.511000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v|
+!i113 0
+R7
+n@branch@test
+vcsau
+R3
+!i10b 1
+!s100 ^7c>HJzjTV5Ce^l6]hJeo0
+IG@:`zIlB[Tz2OLZQIEMOg2
+R4
+R5
+w1697943534
+8C:/Users/11097/Desktop/risc5CPU/src/EX/csau.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/csau.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1701745690.938000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/csau.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/csau.v|
+!i113 0
+R7
+vDataRAM
+Z8 !s110 1701745691
+!i10b 1
+!s100 74;fazUC>>j?8O^GBOjGQ0
+Ico[=_=ZFVbGHh[>lc8[m40
+R4
+R5
+Z9 w1701654212
+Z10 8C:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v
+Z11 FC:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v
+L0 17
+R6
+r1
+!s85 0
+31
+Z12 !s108 1701745691.285000
+Z13 !s107 C:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v|
+!i113 0
+R7
+n@data@r@a@m
+vDataRAM_dist_mem_gen_v8_0_12
+R8
+!i10b 1
+!s100 4kGRHZW^2;hm2X0bXR4O[2
+I`UHHeZkT0AXfI4>MkB=1A3
+R4
+R5
+R9
+R10
+R11
+L0 101
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R7
+n@data@r@a@m_dist_mem_gen_v8_0_12
+vDataRAM_dist_mem_gen_v8_0_12_synth
+R8
+!i10b 1
+!s100 IX1P^DU`aFLI<jJ8Y2BfK2
+IY<>aIIXh@PQF9Gg^L0C1Y3
+R4
+R5
+R9
+R10
+R11
+L0 251
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R7
+n@data@r@a@m_dist_mem_gen_v8_0_12_synth
+vDataRAM_spram
+R8
+!i10b 1
+!s100 z_[HPmPGdl2j0^nLI@X3[3
+Ig2ZSo9LzMN:;;G6Il4:Co1
+R4
+R5
+R9
+R10
+R11
+L0 278
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R7
+n@data@r@a@m_spram
+vDecode
+R3
+!i10b 1
+!s100 nSYfT0`jH=@KT;UAnXIJE1
+I>6VFGD@:6SkI;>A;gIWQU2
+R4
+R5
+w1701689370
+8C:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1701745690.559000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v|
+!i113 0
+R7
+n@decode
+vdist_mem_gen_v8_0_14
+R8
+!i10b 1
+!s100 6oSK0Me@^:hP;aSHCNe=J2
+IEPbaE`=019YV9@4]19`0B0
+R4
+R5
+w1701652807
+8C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v
+FC:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v
+L0 123
+R6
+r1
+!s85 0
+31
+!s108 1701745691.227000
+!s107 C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v|
+!i113 0
+R7
+vEX
+R3
+!i10b 1
+!s100 GYaSmfWR=L851a2caFeY42
+Imf=jga_3LM`o4=lN_kOm12
+R4
+R5
+w1701675566
+8C:/Users/11097/Desktop/risc5CPU/src/EX/EX.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/EX.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.989000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/EX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/EX.v|
+!i113 0
+R7
+n@e@x
+vForwarding
+R8
+!i10b 1
+!s100 WTRAQInZKOEVO`mF2O@V61
+IoF73@MA5lA0[KGc2b3<?02
+R4
+R5
+w1701503636
+8C:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745691.038000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v|
+!i113 0
+R7
+n@forwarding
+vglbl
+R8
+!i10b 1
+!s100 cbl^>J=4c:SR[][<d7:H52
+IU>L1X_:KD[Iz1VMed>WCc0
+R4
+R5
+R9
+R10
+R11
+L0 1038
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R7
+vID
+R3
+!i10b 1
+!s100 LJ_EiWSFW9jAQgT9Q`:Cl1
+IT[cEPmjCbnk1bX:AG;n121
+R4
+R5
+w1701675014
+8C:/Users/11097/Desktop/risc5CPU/src/ID/ID.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/ID.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.603000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/ID.v|
+!i113 0
+R7
+n@i@d
+vIF
+R3
+!i10b 1
+!s100 TQnEKTU>j@EckQZMC2RCl2
+I==>mnPLUDBT0f59A0S<?c2
+R4
+R5
+w1701694648
+8C:/Users/11097/Desktop/risc5CPU/src/IF/IF.v
+FC:/Users/11097/Desktop/risc5CPU/src/IF/IF.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.390000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/IF/IF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/IF/IF.v|
+!i113 0
+R7
+n@i@f
+vImmGen
+R3
+!i10b 1
+!s100 @8<i?Ak2E]XKJhPSg]lbW3
+IjNJl]cz]6BNaAA4=K8C;z3
+R4
+R5
+w1701659159
+8C:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.645000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v|
+!i113 0
+R7
+n@imm@gen
+vInstructionROM
+R3
+!i10b 1
+!s100 @;lh:o?KijnYHY=T@?Mb=0
+IYefDf;fmG9H`2`^A[kbI82
+R4
+R5
+w1701511488
+8C:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v
+FC:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.428000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v|
+!i113 0
+R7
+n@instruction@r@o@m
+vmux_4bits
+R8
+!i10b 1
+!s100 bZ[KJ@bbOOgPYO5fNk5z[2
+I_QB>0@TI7OOegD>?=Sc0g2
+R4
+R5
+w1695177139
+8C:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v
+FC:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1701745691.086000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v|
+!i113 0
+R7
+vPCRegister
+R3
+!i10b 1
+!s100 Kmn5K<?W:ZVCcA]cIgdX71
+IBDI1GXSN3bzBRC1::aJXM3
+R4
+R5
+w1701656147
+8C:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v
+FC:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.470000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v|
+!i113 0
+R7
+n@p@c@register
+vRBWRegisters
+R3
+!i10b 1
+!s100 fFL9faj[H<PF8Sl6`hl152
+IGF>P@8KV3FMIbDl7RkSf^0
+R4
+R5
+w1701661229
+8C:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1701745690.701000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v|
+!i113 0
+R7
+n@r@b@w@registers
+vRegisters
+R3
+!i10b 1
+!s100 nYWMDQcj5Gn@JXULj]g>m0
+IgOlU@=57MJ?Vnz>dGKG330
+R4
+R5
+w1701661209
+8C:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v
+FC:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1701745690.746000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v|
+!i113 0
+R7
+n@registers
+vRisc5CPU
+R3
+!i10b 1
+!s100 3adNjOn_hWI>P41e3ikNg0
+I?f0QT2i_X[3ZXg;[Z4HBS0
+R4
+R5
+w1701740185
+8C:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v
+FC:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1701745690.354000
+!s107 C:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v|
+!i113 0
+R7
+n@risc5@c@p@u
+vRisc5CPU_tb_v
+R8
+!i10b 1
+!s100 5=Dc;E@Y^JW0MlkJLk4oZ0
+I:igRS4UBa_>S:T`V`Mm;Z1
+R4
+R5
+w1687830540
+8C:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v
+FC:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1701745691.137000
+!s107 C:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v|
+!i113 0
+R7
+n@risc5@c@p@u_tb_v

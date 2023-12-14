@@ -1,0 +1,153 @@
+C:/Users/11097/Desktop/risc5CPU/src/EX/EX.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/EX.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module EX
+
+Top level modules:
+	EX
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/ID.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/ID.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/ImmGen.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/adder_4btis.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/BranchTest.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module BranchTest
+
+Top level modules:
+	BranchTest
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/mux_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux_4bits
+
+Top level modules:
+	mux_4bits
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.gen/sources_1/ip/DataRAM/sim/DataRAM.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.gen/sources_1/ip/DataRAM/sim/DataRAM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DataRAM
+
+Top level modules:
+	DataRAM
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/Vivado/DataRAM_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DataRAM
+-- Compiling module DataRAM_dist_mem_gen_v8_0_12
+-- Compiling module DataRAM_dist_mem_gen_v8_0_12_synth
+-- Compiling module DataRAM_spram
+-- Compiling module glbl
+
+Top level modules:
+	DataRAM
+	glbl
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/IF/IF.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/IF/IF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/IF/InstructionROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module InstructionROM
+
+Top level modules:
+	InstructionROM
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/Forwarding.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Forwarding
+
+Top level modules:
+	Forwarding
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/RBWRegisters.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RBWRegisters
+
+Top level modules:
+	RBWRegisters
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/EX/csau.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/EX/csau.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module csau
+
+Top level modules:
+	csau
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/Decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Decode
+
+Top level modules:
+	Decode
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/sim/Risc5CPU_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Risc5CPU_tb_v
+
+Top level modules:
+	Risc5CPU_tb_v
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/ID/Registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Registers
+
+Top level modules:
+	Registers
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/TOP/Top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Risc5CPU
+
+Top level modules:
+	Risc5CPU
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/src/IF/PCRegister.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PCRegister
+
+Top level modules:
+	PCRegister
+
+} {} {}} C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v {1 {vlog -work work -vopt -stats=none C:/Users/11097/Desktop/risc5CPU/Vivado/Risc5CPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dist_mem_gen_v8_0_14
+
+Top level modules:
+	dist_mem_gen_v8_0_14
+
+} {} {}}
